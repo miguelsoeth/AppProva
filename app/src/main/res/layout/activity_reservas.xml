@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:id="@+id/mesaUm"
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:orientation="vertical"
+                android:background="@color/yellow"
+                android:gravity="bottom"
+
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="@string/mesa_1"/>
+
+                <Button
+                    android:id="@+id/btnMesaUm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:text="@string/reservar"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/mesaDois"
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:orientation="vertical"
+                android:background="@color/yellow"
+                android:gravity="bottom"
+
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="@string/mesa_2"/>
+
+                <Button
+                    android:id="@+id/btnMesaDois"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:text="@string/reservar"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/mesaTres"
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:orientation="vertical"
+                android:background="@color/yellow"
+                android:gravity="bottom"
+
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="@string/mesa_3"/>
+
+                <Button
+                    android:id="@+id/btnMesaTres"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:text="@string/reservar"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/mesaQuatro"
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:orientation="vertical"
+                android:background="@color/yellow"
+                android:gravity="bottom"
+
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="@string/mesa_4"/>
+
+                <Button
+                    android:id="@+id/btnMesaQuatro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:text="@string/reservar"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editLiberarMesa"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnLiberarMesa"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/liberar_mesa"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnConfiguracoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/configuracoes"/>
+</LinearLayout>

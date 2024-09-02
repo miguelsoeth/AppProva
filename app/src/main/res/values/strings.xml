@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppProva</string>
+    <string name="reservar">Reservar</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="mesa_1">Mesa 1</string>
+    <string name="salvar">Salvar</string>
+    <string name="mesa_2">Mesa 2</string>
+    <string name="mesa_3">Mesa 3</string>
+    <string name="mesa_4">Mesa 4</string>
+    <string name="cor_para_as_mesas_reservadas">Cor para as mesas reservadas:</string>
+    <string name="cor_para_as_mesas_livres">Cor para as mesas livres:</string>
+    <string name="reservar_todos">Reservar Todos</string>
+    <string name="liberar_mesa">Liberar Mesa</string>
+</resources>
